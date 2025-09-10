@@ -48,6 +48,11 @@ jobs:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
           working-directory: src/website
+      # Make the Windows-generated Gemfile.lock valid on Linux runners
+      - name: Add Linux platform to Gemfile.lock
+        run: |
+          bundle lock --add-platform x86_64-linux || true
+          bundle lock --add-platform ruby || true
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5

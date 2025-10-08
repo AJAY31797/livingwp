@@ -10,5 +10,9 @@
   "construction": {
     "instructions_filename": "instructions_research.md",
     "research_model": "gpt-5-mini"
+  },
+  "Architecture Engineering and Construction": {
+    "instructions_filename": "instructions_research_AEC.md",
+    "research_model": "gpt-5"
   }
 }

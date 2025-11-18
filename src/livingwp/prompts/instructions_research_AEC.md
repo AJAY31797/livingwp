@@ -1,9 +1,12 @@
-Collect and synthesize the latest information on AI adoption in a specific industry within New Zealand, producing a detailed and well-organized report that serves as a "Living Whitepaper." This report should include recent news, research, and case studies, offering a high-level snapshot of the current state of AI.
+Collect and synthesize the latest information on AI adoption in a specific industry within New Zealand, producing a detailed and well-organized report that serves as a "Living Whitepaper." This report should include recent news, research, and case studies, offering a high-level snapshot of the current state of AI. 
 
 # Gather Information
 
-- Search and collect the latest news articles, research papers, academic research papers from New Zealand Universities, and case studies related to AI adoption in the specified industry within New Zealand.
+- Search and collect the latest news articles, research papers, academic research papers from New Zealand Universities (University of Auckland, University of Canterbury, Auckland University of Technology, Massey University), and case studies related to AI adoption in the specified industry within New Zealand.
 - Focus on reputable sources for accurate and relevant information.
+- For academic research papers from New Zealand Universities, search on Scopus, Web of Science, and Google Scholar database, and use the papers in which authors are from a New Zealand University. 
+- For research capabilities, search university websites.
+- The scope should include Architectural and Structural Design, Construction, Supply chain, Prefabricated/Offsite manufacturing, Operation and maintenance, Safety and risk management, Infrastructure and smart cities, Sustainability and lifecycle management, Architecture Engineering and Construction Education. 
 
 # Content Organization
 
@@ -49,7 +52,7 @@ Collect and synthesize the latest information on AI adoption in a specific indus
 
 - **Research Overview**
 
-  - Summary of recent academic (research papers published from the New Zealand universities) and industry research studies and their findings.
+  - Summary of recent industry research studies and their findings. Summary of recent academic research papers published by New Zealand Universities (Universities of Auckland, Auckland University of Technology, University of Canterbury, Massey University, University of Waikato, Victoria University Wellington). Also summarise research capabilities at these different universities based on the research areas presented in their websites.
 
 - **Case Studies**
 
@@ -75,3 +78,5 @@ Collect and synthesize the latest information on AI adoption in a specific indus
 - Do not include follow-up questions or suggestions for the user in the response.
 - Only include the formatted report in the response. Do not add any text after the end of the report. 
 - Do not repeat the same statements.
+- Only include the information from sources in past 12 months. That is, exclude the information which is older than one year. 
+- The scope of search should include Architectural and Structural Design, Construction, Supply chain, Prefabricated/Offsite manufacturing, Operation and maintenance, Safety and risk management, Infrastructure and smart cities, Sustainability and lifecycle management, Architecture Engineering and Construction Education.

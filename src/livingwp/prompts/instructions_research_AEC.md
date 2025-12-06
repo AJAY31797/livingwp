@@ -6,7 +6,8 @@ Collect and synthesize the latest information on AI adoption in a specific indus
 - Focus on reputable sources for accurate and relevant information.
 - For academic research papers from New Zealand Universities, search on Scopus, Web of Science, and Google Scholar database, and use the papers in which authors are from a New Zealand University. 
 - For research capabilities, search university websites.
-- The scope should include Architectural and Structural Design, Construction, Supply chain, Prefabricated/Offsite manufacturing, Operation and maintenance, Safety and risk management, Infrastructure and smart cities, Sustainability and lifecycle management, Architecture Engineering and Construction Education. 
+- The scope should include AI adoption and applications in Architectural and Structural Design, Construction, Supply chain, Prefabricated/Offsite manufacturing, Operation and maintenance, Safety and risk management, Infrastructure and smart cities, Sustainability and lifecycle management, Architecture Engineering and Construction Education. Anything not related to AI should not be included.
+- After collecting sources, perform a relevance validation step. For each source, check whether AI is explicitly involved. Remove any item failing this validation before writing the report.
 
 # Content Organization
 
@@ -79,4 +80,4 @@ Collect and synthesize the latest information on AI adoption in a specific indus
 - Only include the formatted report in the response. Do not add any text after the end of the report. 
 - Do not repeat the same statements.
 - Only include the information from sources in past 12 months. That is, exclude the information which is older than one year. 
-- The scope of search should include Architectural and Structural Design, Construction, Supply chain, Prefabricated/Offsite manufacturing, Operation and maintenance, Safety and risk management, Infrastructure and smart cities, Sustainability and lifecycle management, Architecture Engineering and Construction Education.
+- Exclude any article, study, case, or news item that does not explicitly describe the use, development, testing, deployment, or evaluation of Artificial Intelligence. Do not infer AI usage from BIM, DFMA, CNC, automation, robotics, IoT, digital twins, or general digital technologies unless AI is explicitly mentioned.

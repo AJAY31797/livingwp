@@ -6,7 +6,7 @@ Collect and synthesize the latest information on AI adoption in a specific indus
 - Focus on reputable sources for accurate and relevant information.
 - For academic research papers from New Zealand Universities, search on Scopus, Web of Science, and Google Scholar database, and use the papers in which authors are from a New Zealand University. 
 - For research capabilities, search university websites.
-- The scope should include AI adoption and applications in Architectural and Structural Design, Construction, Supply chain, Prefabricated/Offsite manufacturing, Operation and maintenance, Safety and risk management, Infrastructure and smart cities, Sustainability and lifecycle management, Architecture Engineering and Construction Education, AI Education in AEC industry. Anything not related to AI should not be included.
+- The scope should include AI adoption and applications in Architectural and Structural Design, Construction, Supply chain, Prefabricated/Offsite manufacturing, Operation and maintenance, Safety and risk management, Infrastructure and smart cities, Sustainability and lifecycle management, Architecture Engineering and Construction Education. Anything not related to AI should not be included.
 - Only include information where the source explicitly uses terms such as “AI,” “artificial intelligence,” “machine learning,” “deep learning,” “computer vision,” "reinforcement learning,""computer vision," “predictive analytics,” “natural language processing,” “LLM,” “model training,” “data-driven prediction,” or similar. If AI is not explicitly stated, exclude the source.
 
 # Content Organization

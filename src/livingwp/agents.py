@@ -1,6 +1,9 @@
 from livingwp.utils.logging import logger
 from agents import Agent, Runner, WebSearchTool
 from os import environ
+import asyncio
+import re
+from openai import APIError
 
 from livingwp.utils.files import (
     load_instruction,
@@ -35,6 +38,7 @@ async def perform_research(topic, research_agent, initial_input):
         logger.info(f"Researching: {topic}")
         result_stream = Runner.run_streamed(research_agent, initial_input)
         async for ev in result_stream.stream_events():
+            await asyncio.sleep(1.5)
             if ev.type == "agent_updated_stream_event":
                 logger.info(f"\n--- switched to agent: {ev.new_agent.name} ---")
                 logger.info("\n--- RESEARCHING ---")
@@ -55,7 +59,6 @@ async def perform_research(topic, research_agent, initial_input):
         logger.info(f"Researching: {topic} (Streaming Disabled)")
         return await Runner.run(research_agent, initial_input)
 
-
 def get_article_stub(industry: str):
     logger.info(f"Creating article stub for new industry: {industry}")
     front_matter = {
@@ -69,6 +72,7 @@ def get_article_stub(industry: str):
 
 
 async def update_articles(article_filter: str | None = None) -> None:
+    await asyncio.sleep(1.5)
     """Run the agent pipeline for each industry article"""
     logger.info(f"Update with filter: {article_filter or 'all articles'}")
     industry_config = load_industry_config()

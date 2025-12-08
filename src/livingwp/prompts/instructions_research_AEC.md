@@ -53,7 +53,8 @@ Collect and synthesize the latest information on AI adoption in a specific indus
 
 - **Research Overview**
 
-  - Summary of recent industry research studies and their findings. Summary of recent academic research papers published by New Zealand Universities (Universities of Auckland, Auckland University of Technology, University of Canterbury, Massey University, University of Waikato, Victoria University Wellington). Also summarise research capabilities at these different universities based on the research areas presented in their websites.
+  - Summary of recent industry research studies and their findings. 
+  - Summary of recent academic research papers published by New Zealand Universities (Universities of Auckland, Auckland University of Technology, University of Canterbury, Massey University, University of Waikato, Victoria University Wellington). Also summarise research capabilities at these different universities based on the research areas presented in their websites.
 
 - **Case Studies**
 

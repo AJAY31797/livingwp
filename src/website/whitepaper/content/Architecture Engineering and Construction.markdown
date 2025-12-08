@@ -5,349 +5,131 @@ permalink: /whitepaper/Architecture Engineering and Construction/
 title: AI in Architecture engineering and construction
 ---
 
-# AI in Architecture, Engineering and Construction (AEC) in Aotearoa New Zealand: A Living Whitepaper  
+# AI in Architecture, Engineering and Construction (AEC) in Aotearoa New Zealand: A Living Whitepaper
 
-- **Updated: 8 December 2025**  
-- **Scope window:** Only initiatives, research, and news with explicit AI/ML terminology and publication dates from **8 December 2024–8 December 2025** are included.
-
----
-
-## Introduction  
-
-- Over the past 12 months, AI in New Zealand’s AEC ecosystem has shifted from exploratory pilots to early operational deployment in:
-  - **Computer‑vision safety analytics** on active worksites.
-  - **Geospatial and flood‑risk intelligence** via deep learning and machine learning.
-  - **Predictive asset management** for linear infrastructure and utilities.
-  - **Smart‑city service layers** using AI assistants.  
-- This acceleration is underpinned by:
-  - A new **National Artificial Intelligence Strategy** (July 2025) and public‑sector AI frameworks.
-  - The launch of a **national AI research platform** for applied, industry‑linked AI.
-  - Expanded **AI‑focused education and research programmes** in civil, construction and geospatial domains at NZ universities. ([mbie.govt.nz](https://www.mbie.govt.nz/about/news/artificial-intelligence-strategy-and-business-guidance-now-available?utm_source=openai))  
+- Updated: 8 December 2025  
+- Scope window: Only initiatives, research, and news with explicit AI/ML terminology and publication dates from 8 December 2024–8 December 2025 are included.
 
 ---
 
-## Policy and Frameworks  
+## Introduction
 
-- **National AI Strategy (8 July 2025 – MBIE)**
-  - First whole‑of‑NZ strategy for **Artificial Intelligence**, aligning with **OECD AI Principles** and aiming to give businesses confidence to “safely use, develop and innovate with this transformative tech.” ([mbie.govt.nz](https://www.mbie.govt.nz/about/news/artificial-intelligence-strategy-and-business-guidance-now-available?utm_source=openai))  
-  - Highlights AI as a lever to grow productivity and resilience across infrastructure and construction‑adjacent sectors.
-
-- **Public‑sector AI landscape – GCDO cross‑agency survey (2025)**  
-  - The **2025 cross‑agency survey of AI use cases** reports **272 AI use cases** across 70 agencies, with **55 deployed/operational** AI systems versus 15 in 2024 — a near‑fourfold increase in operational AI. ([digital.govt.nz](https://www.digital.govt.nz/dmsdocument/263~full-results-2025-cross-agency-survey-for-artificial-intelligence-ai-use-cases/html?utm_source=openai))  
-  - While sector‑agnostic, many use cases relate to:
-    - Geospatial analysis, prediction and planning.
-    - Customer‑facing virtual assistants for local and central government services, relevant to planning and infrastructure consents.
-
-- **NZIAT – Artificial Intelligence Research Platform (Call opened 23 October 2025)**  
-  - MBIE’s **New Zealand Institute for Advanced Technology (NZIAT)** launched a **dedicated Artificial Intelligence Research Platform** funding call (Phase 1 applications opened 23 October 2025). ([mbie.govt.nz](https://www.mbie.govt.nz/science-and-technology/science-and-innovation/refocusing-the-science-innovation-and-technology-system/public-research-organisations/new-zealand-institute-for-advanced-technology/call-for-proposals-for-the-artificial-intelligence-research-platform?utm_source=openai))  
-  - Up to **NZ$70m over seven years** (as announced in MBIE commentary) is intended to build a **nationally connected AI research capability**, explicitly targeting:
-    - Industry‑aligned AI development.
-    - Scaling applied AI projects that can include AEC use cases (e.g., predictive asset management, geospatial AI, digital twins).
-
-- **Sector‑adjacent AI policy signals (2025)**
-  - **Health Research Council “Artificial Intelligence in Healthcare” RFP (2025)** earmarks NZ$5m for AI research in health. While not built‑environment‑specific, it strengthens domestic expertise in **medical imaging, predictive analytics and AI assurance** — capabilities that are technically transferable to safety analytics, structural diagnostics and facilities management. ([gateway.hrc.govt.nz](https://gateway.hrc.govt.nz/funding/priorities-funding/2025-artificial-intelligence-in-healthcare?utm_source=openai))  
+- Over the past 12 months, AI in New Zealand’s AEC ecosystem has moved from pilots to early operational deployment in:
+  - Deep‑learning geospatial intelligence for flood‑risk and elevation mapping to support design and infrastructure planning. ([canterbury.ac.nz](https://www.canterbury.ac.nz/news-and-events/news/2025/uc-innovation-makes-global-flood-risk-mapping-affordable---?utm_source=openai))
+  - Machine‑learning nowcasting of flood inundation for operational decision‑making. ([niwa.co.nz](https://niwa.co.nz/climate-and-weather/ai-flood-maps-forecasting-where-and-when-real-time?utm_source=openai))
+  - Predictive analytics for water and wastewater asset operations. ([watercare.co.nz](https://www.watercare.co.nz/home/about-us/latest-news-and-media/watercare-s-wastewater-network-smartens-up-with-rollout-of-5000-sensors?utm_source=openai))
+  - Computer‑vision safety analytics on active worksites. ([scoop.co.nz](https://www.scoop.co.nz/stories/AK2505/S00275/ai-driving-safety-changes-at-tupua-horo-nuku.htm?utm_source=openai))
+  - Smart‑city service layers using an AI assistant for customer navigation across council services. ([ourauckland.aucklandcouncil.govt.nz](https://ourauckland.aucklandcouncil.govt.nz/news/2025/02/auckland-council-ai-initiative-to-boost-customer-experience/?utm_source=openai))
+- Policy tailwinds: New Zealand’s first National Artificial Intelligence Strategy (8 July 2025) and a cross‑agency survey showing 55 operational AI systems across government provide clearer guardrails and impetus for adoption. ([mbie.govt.nz](https://www.mbie.govt.nz/about/news/artificial-intelligence-strategy-and-business-guidance-now-available?utm_source=openai))
 
 ---
 
-## Current News  
+## Policy and Frameworks
 
-> Only items explicitly referring to “AI,” “artificial intelligence,” “machine learning,” “deep learning,” “computer vision,” “LLM,” “predictive analytics,” or similar are included.
-
-- **UC deep‑learning elevation mapping for flood‑risk and infrastructure planning (27 November 2025)**  
-  - University of Canterbury researchers at the Geospatial Research Institute released an AI‑based method called **Joint Spatial Propagation Super‑Resolution (JSPSR)** that uses **deep learning** to enhance global satellite elevation data. ([canterbury.ac.nz](https://www.canterbury.ac.nz/news-and-events/news/2025/uc-innovation-makes-global-flood-risk-mapping-affordable---?utm_source=openai))  
-  - The model:
-    - Uses **AI** to dramatically improve resolution and vertical accuracy of global digital elevation models (DEMs).
-    - Targets affordability and accessibility for councils and engineers doing **flood‑risk mapping, stormwater planning and infrastructure design**.
-
-- **AI skills and talent pipeline expansion – New AI major (11 August 2025)**  
-  - **Massey University** announced a **new Artificial Intelligence major** (Bachelor of Information Sciences) to launch in 2026. ([massey.ac.nz](https://www.massey.ac.nz/about/news/new-artificial-intelligence-major-set-to-launch-in-2026/?utm_source=openai))  
-  - The programme focuses on:
-    - **Artificial intelligence and machine learning** theory and applications.
-    - Developing graduates who can **“develop and deliver AI tools”** and explain the **methods that power them**, including data‑driven prediction.
-  - While not AEC‑specific, this is directly relevant to the sector’s growing need for AI‑literate engineers, planners and project managers.
-
-- **AI education for land‑use, urban and environmental planning (29 August 2025)**  
-  - **Lincoln University** launched a **Master of Artificial Intelligence for Land Use**, advertised as the first of its kind in NZ. ([lincoln.ac.nz](https://www.lincoln.ac.nz/news-and-events/new-master-of-ai/?utm_source=openai))  
-  - Students **design and build AI models** and work on **industry projects** spanning:
-    - Urban planning.
-    - Water stewardship.
-    - Climate‑resilient land‑use decisions.
-  - Programme materials explicitly highlight **AI’s potential to improve land‑use decision‑making**, directly intersecting with spatial planning, infrastructure siting, and environmental aspects of AEC.
-
-- **Industry capacity building – Artificial intelligence in construction webinar (re‑promoted 2025)**  
-  - **Civil Contractors New Zealand / Civil Trades NZ** continue promoting their **“Artificial intelligence in construction”** webinar (originally July 2024), with 2025 postings positioning AI as a **“game‑changing transformation tool across construction”** for project management, safety and process optimisation. ([civilcontractors.co.nz](https://civilcontractors.co.nz/webinar-recording-artificial-intelligence-in-construction/10912-2b351587-5f21-4d72-90f2-3363c4a42419/?utm_source=openai))  
-  - Although dated 2024, the **active 2025 promotion and guidance** demonstrate ongoing industry engagement with AI concepts and early use cases.
+- National AI Strategy (8 July 2025 – MBIE)
+  - First whole‑of‑NZ Artificial Intelligence strategy; aligns with OECD AI Principles; signals government encouragement for businesses to “safely use, develop and innovate” with AI. ([mbie.govt.nz](https://www.mbie.govt.nz/about/news/artificial-intelligence-strategy-and-business-guidance-now-available?utm_source=openai))
+- Public‑sector AI landscape (2025 cross‑agency survey – GCDO/DIA)
+  - 70 agencies reported 272 AI use cases; 55 are deployed/operational (up from 15 in 2024), with growth across NLP, computer vision and other AI technologies. Last updated 11 August 2025. ([digital.govt.nz](https://www.digital.govt.nz/dmsdocument/263~full-results-2025-cross-agency-survey-for-artificial-intelligence-ai-use-cases/html?utm_source=openai))
+- NZIAT Artificial Intelligence Research Platform (2025)
+  - Up to NZ$70m over seven years to build nationally connected, industry‑aligned AI capability with potential AEC applications. Published 18 September 2025. ([mbie.govt.nz](https://www.mbie.govt.nz/about/news/new-zealand-institute-for-advanced-technology-launches-major-ai-investment?utm_source=openai))
 
 ---
 
-## Research Overview  
+## Current News
 
-### Recent AEC‑relevant research papers with NZ‑university authors (Dec 2024–Dec 2025)  
-
-> Only AI‑explicit work is listed. Where publication dates slightly pre‑date Dec 2024 but have 2025 visibility and direct AEC relevance, they are referenced sparingly as context.
-
-- **AI‑based elevation super‑resolution for flood‑risk and infrastructure design (UC, 2025)**  
-  - **Discipline / outlet:** Geospatial AI, published in *Remote Sensing* (2025) and profiled by UC in November 2025. ([canterbury.ac.nz](https://www.canterbury.ac.nz/news-and-events/news/2025/uc-innovation-makes-global-flood-risk-mapping-affordable---?utm_source=openai))  
-  - **Method:**
-    - **Deep‑learning** model **JSPSR** for joint spatial propagation super‑resolution.
-    - Trained to enhance coarse 30 m global DEMs using AI to reach near‑LiDAR levels of precision.
-  - **AEC relevance:**
-    - Enables **flood‑risk mapping**, stormwater design and infrastructure route selection in regions lacking LiDAR.
-    - Reduces computational cost and data requirements, supporting more frequent updates and scenario testing.
-
-- **Machine‑learning models for seismic building loss prediction (multi‑institution including NZ, 2023 paper but actively cited in 2025)**  
-  - **Paper:** “Development of a seismic loss prediction model for residential buildings using machine learning – Christchurch, New Zealand” (*Natural Hazards and Earth System Sciences*). ([nhess.copernicus.org](https://nhess.copernicus.org/articles/23/1207/2023/?utm_source=openai))  
-  - **Method:**
-    - Trains a **random forest machine‑learning model** on Earthquake Commission (EQC) insurance data from the Canterbury earthquake sequence.
-    - Compares performance against existing tools (RiskScape).
-  - **Findings and 2025 relevance:**
-    - ML model **outperforms traditional loss‑modelling approaches**.
-    - Demonstrates how **data‑driven prediction** can support rapid post‑event loss assessment and risk‑based strengthening programmes — highly pertinent to structural and infrastructure resilience.
-  - While older than 12 months, it continues to underpin current NZ thinking on **AI for seismic resilience**, informing new projects and teaching in 2025.
-
-- **Generative AI and LLMs in construction and AEC education (Massey University, 2025)**  
-  - **Paper:** 2025 article in *Buildings* examines integrating **Generative AI and large language models (LLMs)** into construction education and professional workflows. (Summarised from institution repository descriptions.) ([massey.ac.nz](https://www.massey.ac.nz/about/news/new-artificial-intelligence-major-set-to-launch-in-2026/?utm_source=openai))  
-  - **Key contributions:**
-    - Describes use of **LLMs** for:
-      - Drafting method statements and safety documentation.
-      - Supporting early‑stage design options and cost narratives.
-      - Assisting students with construction scheduling and risk analysis.
-    - Emphasises governance: addressing **bias, hallucinations, and confidentiality** in AEC use.
-
-- **BIM–offsite construction review with explicit AI and digital‑twin focus (AUT, 2025)**  
-  - **Research:** An AUT review of **BIM–offsite construction integration** (189 studies) identifies **artificial intelligence** and **digital twins** as key decision‑support technologies for offsite manufacturing and sustainability. (As described in the AUT repository).  
-  - **AEC relevance:**
-    - Frames AI as:
-      - A tool for **optimising prefabrication workflows** (layout, logistics).
-      - Enabling **data‑driven prediction** of productivity, cost and carbon outcomes in offsite manufacturing.
-
-- **Post‑earthquake building usability classification via ML (UoA & collaborators, 2025)**  
-  - **Paper:** 2025 *Journal of Building Engineering* article (cited in earlier version of this whitepaper) evaluates multiple **machine‑learning classifiers** for determining building usability / damage state for rapid placarding, using Canterbury sequence data.  
-  - **Key result:** **Random Forest** and ensemble methods are robust for predicting building status in line with NZ Rapid Building Assessment protocols, illustrating AI’s role in automating post‑event inspections.
-
-### Research capabilities at NZ universities aligned to AEC (2024–2025)  
-
-> Focused on AI, ML, deep learning, computer vision, predictive analytics or LLMs with evident built‑environment application.
-
-#### University of Auckland  
-
-- **Physics‑informed AI and digital twins for engineered systems**  
-  - The **Auckland Bioengineering Institute (ABI)** secured **Catalyst: Strategic** funding (Sept 2025) for a NZ–US programme on **physics‑informed AI digital twins** with the Oden Institute (UT Austin). The programme advances AI‑driven computational models of complex physical systems, with stated potential for **built‑environment applications** (e.g., infrastructure and structural systems). ([mbie.govt.nz](https://www.mbie.govt.nz/about/news/artificial-intelligence-strategy-and-business-guidance-now-available?utm_source=openai))  
-- **Civil engineering teaching in AI**  
-  - Course offerings (e.g., **Construction Informatics**) explicitly include **AI applications in civil engineering**, covering data‑driven scheduling, predictive cost/risk analytics and AI‑enabled project control (based on 2025 course descriptions in earlier whitepaper baseline).
-- **Engagement with industry and professions**  
-  - 2025 events such as “Engineering the Future: AI, Sustainability and Design in Infrastructure” highlight AI use in infrastructure planning, optimisation and lifecycle management (baseline reference).
-
-#### University of Canterbury  
-
-- **Geospatial AI for flood‑risk and infrastructure planning**  
-  - The **Geospatial Research Institute** leads the **JSPSR deep‑learning DEM super‑resolution** project, positioning UC as a key provider of **AI for elevation, flood and hazard mapping** used in infrastructure design. ([canterbury.ac.nz](https://www.canterbury.ac.nz/news-and-events/news/2025/uc-innovation-makes-global-flood-risk-mapping-affordable---?utm_source=openai))  
-- **Curriculum and project‑based learning**  
-  - Modules and projects in environmental and civil engineering increasingly incorporate **machine learning for streamflow, flood prediction and geospatial analysis**, using real NZ datasets for infrastructure‑relevant problems (as described in UC news/profile). ([canterbury.ac.nz](https://www.canterbury.ac.nz/news-and-events/news/2025/uc-innovation-makes-global-flood-risk-mapping-affordable---?utm_source=openai))  
-
-#### Auckland University of Technology (AUT)  
-
-- **Green–Digital–Intelligent (GDI) conference series (2025)**  
-  - AUT’s **GDI 2025 conference** emphasises **AI, digital twins and intelligent systems** in the built environment, showcasing:
-    - AI‑driven optimisation for building energy and performance.
-    - Smart‑city analytics and computer‑vision safety/traffic applications (per AUT news and programme material).
-- **Research on AI in offsite manufacturing**  
-  - The BIM–offsite construction review foregrounds **artificial intelligence** as a decision‑support layer in **prefabrication / offsite manufacturing**, identifying gaps around data availability and integration with BIM (see above).
-
-#### Massey University  
-
-- **GenAI and LLMs for construction and built‑environment education**  
-  - The **School of Built Environment** continues work on **Generative AI and LLMs** in construction curricula, emphasising productivity and responsible use (as per 2025 *Buildings* article and repository summaries).  
-- **New AI major**  
-  - The **Artificial Intelligence major** in the Bachelor of Information Sciences (announced August 2025) is explicitly oriented toward **developing and delivering AI tools** and understanding **machine‑learning methods**, providing a talent pipeline for AEC firms wanting in‑house data science capability. ([massey.ac.nz](https://www.massey.ac.nz/about/news/new-artificial-intelligence-major-set-to-launch-in-2026/?utm_source=openai))  
-
-#### University of Waikato  
-
-- **Workshops on AI for the built environment (2025)**  
-  - Hosted an Engineering NZ event on **“AI for the Built Environment”** in 2025, focusing on AI, digital twins, predictive maintenance and design optimisation — indicating emerging academic–industry collaboration on AI‑enabled asset management and structural performance (baseline reference).
-
-#### Victoria University of Wellington (Te Herenga Waka)  
-
-- **AI policy and governance**  
-  - Through its Policy Hub, VUW contributes to national AI governance and supports the Government Chief Digital Officer’s AI advisory work, shaping **policy guardrails** for AI systems that include built‑environment and planning services (baseline reference).
-
-#### Lincoln University  
-
-- **Applied AI for land use, water and urban decisions**  
-  - New **Master of Artificial Intelligence for Land Use** (August 2025) targets AI techniques for:
-    - **Urban planning**, zoning, and development.
-    - **Water stewardship**, catchment management and climate resilience.
-  - Students build **AI models** and may complete **research dissertations** with potential application to **sustainable urban form, infrastructure corridors and green‑blue networks**. ([lincoln.ac.nz](https://www.lincoln.ac.nz/news-and-events/new-master-of-ai/?utm_source=openai))  
+- Deep‑learning elevation mapping unlocks affordable flood‑risk and infrastructure planning (27 Nov 2025)
+  - University of Canterbury’s Geospatial Research Institute released JSPSR, a deep‑learning super‑resolution model that enhances global DEMs, improving vertical accuracy and resolution for flood‑risk mapping and planning. Peer‑reviewed paper published 30 Oct 2025 (Remote Sensing). ([canterbury.ac.nz](https://www.canterbury.ac.nz/news-and-events/news/2025/uc-innovation-makes-global-flood-risk-mapping-affordable---?utm_source=openai))
+- AI flood maps operationalisation (2025)
+  - Earth Sciences New Zealand (NIWA) highlights a pre‑trained machine‑learning model to produce hourly, near‑real‑time flood‑inundation maps in 1–2 minutes for emergency and operations use. ([niwa.co.nz](https://niwa.co.nz/climate-and-weather/ai-flood-maps-forecasting-where-and-when-real-time?utm_source=openai))
+- Auckland Council to pilot AI assistant for service navigation (27 Feb 2025)
+  - “Ask Auckland Council” will use Google Cloud’s AI to help residents find planning, consenting and service information across council sites. ([ourauckland.aucklandcouncil.govt.nz](https://ourauckland.aucklandcouncil.govt.nz/news/2025/02/auckland-council-ai-initiative-to-boost-customer-experience/?utm_source=openai))
+- Watercare to deploy 5,000 smart sensors with AI analytics (18 Aug 2025; follow‑up 3 Sep 2025)
+  - Rollout includes an AI analytics system to detect anomalies using sensor, weather and tidal data; an early sensor prevented a wastewater overflow in Ōtara. ([watercare.co.nz](https://www.watercare.co.nz/home/about-us/latest-news-and-media/watercare-s-wastewater-network-smartens-up-with-rollout-of-5000-sensors?utm_source=openai))
+- Auckland Transport uses AI for landslide susceptibility across ~8,000 km of roads (20 Aug 2025; Jan 2025 coverage)
+  - An AI‑generated GIS layer ranks risk per 12.5 m road segment to inform proactive resilience and forward works. ([insite.ipwea.org](https://insite.ipwea.org/auckland-transport-harnesses-ai-to-build-resilience/))
 
 ---
 
-## Case Studies  
+## Research Overview
 
-> Focus: NZ examples explicitly deploying or operationalising AI/ML in AEC‑relevant settings in the last 12 months (including those in the baseline, re‑structured to fit this timeframe).
+- Recent industry‑relevant studies (Dec 2024–Dec 2025)
+  - AI‑enhanced DEM super‑resolution (UC)
+    - JSPSR deep‑learning improves 30 m global DEMs to near‑LiDAR‑like accuracy; supports flood‑risk assessment and infrastructure planning where LiDAR is unavailable. (Remote Sensing, 30 Oct 2025; UC news 27 Nov 2025). ([mdpi.com](https://www.mdpi.com/2072-4292/17/21/3591?utm_source=openai))
+  - ML for rapid post‑earthquake building damage classification (UoA et al.)
+    - Open‑access Journal of Building Engineering paper evaluates multiple ML classifiers (RF, SVM, etc.) using Canterbury Earthquake Sequence data to automate placard decisions under NZ protocols (published 1 Aug 2025). ([sciencedirect.com](https://www.sciencedirect.com/science/article/pii/S2352710225010447?utm_source=openai))
+  - Generative AI and LLMs in construction education and practice (Massey)
+    - Buildings (15 Mar 2025) article maps GenAI and LLM adoption for construction curricula and workflows, with emphasis on responsible use. ([mdpi.com](https://www.mdpi.com/2075-5309/15/6/933?utm_source=openai))
+  - Digital project management for smart construction using LLM‑driven synthesis and AI context (AUT & Massey)
+    - ITcon (Sep 2025) introduces a Next‑Gen Digital PM competency framework linked to Digital Twins, BIM, IoT and Artificial Intelligence. ([itcon.org](https://www.itcon.org/paper/2025/58))
+  - LLMs for urban planning text analysis (University of Waikato)
+    - Nature Cities–profiled research shows how LLMs (e.g., ChatGPT) can triage policy documents and public submissions to support planners (news 11 Jun 2025). ([waikato.ac.nz](https://www.waikato.ac.nz/int/news-events/news/ai-could-save-councils-time-and-money-on-urban-planning/?utm_source=openai))
 
-### 1. AI‑enhanced elevation for flood planning and infrastructure (Canterbury, 2025)  
-
-- **What**  
-  - The University of Canterbury’s **JSPSR deep‑learning model** uses **AI** to enhance global DEMs, improving horizontal and vertical resolution enough to support detailed **flood‑risk mapping and infrastructure planning** without full LiDAR coverage. ([canterbury.ac.nz](https://www.canterbury.ac.nz/news-and-events/news/2025/uc-innovation-makes-global-flood-risk-mapping-affordable---?utm_source=openai))  
-- **How the AI works**  
-  - **Deep‑learning super‑resolution**:
-    - Learns spatial relationships between coarse and high‑resolution DEM samples.
-    - Propagates this learning to large areas, producing high‑fidelity elevation at lower cost and faster computation.  
-- **Outcome / impact**  
-  - Lowers data cost and computational barriers for:
-    - **Flood‑risk assessment** of urban and peri‑urban areas.
-    - **Stormwater and transport design** in councils with limited LiDAR.
-  - Offers a template for **AI‑based hazard intelligence** as a standard design input.
-
-### 2. AI‑based flood nowcasting and operational flood‑inundation mapping (National, 2025)  
-
-- **What**  
-  - NIWA and partners operationalised a **pre‑trained machine‑learning model** that generates national‑scale **hourly flood‑inundation maps in 1–2 minutes**, enabling near real‑time intelligence for emergency management and infrastructure operations (baseline NIWA article within last 12 months).  
-- **How the AI works**  
-  - Uses **machine learning** to relate rainfall, hydrological data and topography to inundation patterns.
-  - Produces probabilistic maps of water depth and extent.  
-- **Outcome / impact**  
-  - Supports:
-    - **Emergency response**, including evacuation and road closure decisions.
-    - **Urban drainage operations** and infrastructure asset management during events.
-  - Demonstrates the feasibility of **AI‑driven nowcasting** as an O&M tool.
-
-### 3. Computer‑vision safety analytics on a major civil works project (Lower Hutt, 2025)  
-
-- **What**  
-  - Hutt City Council’s **Tupua Horo Nuku** coastal pathway project deployed **machine‑learning‑enabled cameras** to detect:
-    - Falls.
-    - PPE non‑compliance.
-    - Pedestrian intrusions into work zones.
-    - Traffic‑speed breaches. ([civilcontractors.co.nz](https://civilcontractors.co.nz/webinar-recording-artificial-intelligence-in-construction/10915-2b351587-5f21-4d72-90f2-3363c4a42419/?utm_source=openai))  
-- **How the AI works**  
-  - **Computer‑vision models** analyse video streams in near real time.
-  - Alerts are sent to supervisors for intervention (e.g., slowing traffic, addressing unsafe behaviour).  
-- **Outcome / impact**  
-  - Augments human supervision, reducing manual observation burdens.
-  - Provides data to refine traffic management and site layout, contributing to lower incident rates.
-  - Early indication that **computer‑vision safety** can become a standard requirement in infrastructure procurements.
-
-### 4. Network‑scale landslide susceptibility mapping using AI (Auckland Transport, 2025)  
-
-- **What**  
-  - **Auckland Transport** applied **AI** to ~2,000 historical slip records and geospatial variables (slope, vegetation, soil conditions) to build a **landslide susceptibility model** for ~8,000 km of roads (reported January 2025).  
-- **How the AI works**  
-  - A **machine‑learning classifier/regressor** ranks segments by susceptibility, producing a continuous risk surface integrated into GIS for planning.  
-- **Outcome / impact**  
-  - Enables:
-    - Prioritisation of remediation and resilience investments.
-    - Proactive design interventions where roads traverse high‑risk terrain.
-  - Provides a replicable framework for other councils and Waka Kotahi to leverage **AI risk mapping** in forward works programming.
-
-### 5. Predictive analytics for wastewater asset operations (Watercare, Auckland, 2025)  
-
-- **What**  
-  - **Watercare** rolled out **5,000 sensors** across its wastewater network alongside an **AI analytics system** that learns **normal network behaviour** and flags anomalies (August 2025).  
-- **How the AI works**  
-  - Utilises **machine‑learning anomaly detection**:
-    - Models typical flow and level patterns.
-    - Detects deviations indicating blockages, infiltration or equipment failure.  
-- **Outcome / impact**  
-  - Shifts maintenance from **reactive** to **predictive**:
-    - Earlier interventions prevent overflows.
-    - Optimised maintenance schedules reduce OPEX.
-  - Provides proof‑of‑concept for applying similar AI analytics to **stormwater, potable water and building services**.
-
-### 6. Smart‑city service navigation with AI assistant (Auckland Council, 2025)  
-
-- **What**  
-  - **Auckland Council** piloted an **AI‑enabled virtual assistant** (Google Cloud stack) to improve navigation across complex council and partner services (February 2025).  
-- **How the AI works**  
-  - Uses **natural language processing** and **machine learning** to interpret user queries and route them to relevant services or information.  
-- **Outcome / impact**  
-  - Demonstrates a path to AI‑assisted:
-    - **Planning and consenting guidance** (e.g., zoning, building consents).
-    - Infrastructure service queries (rates, transport, water).
-  - Serves as an early smart‑city **customer‑experience layer** that can integrate with more advanced AEC workflows (e.g., status of consent applications, infrastructure works).
+- Research capabilities at NZ universities (AI‑explicit and AEC‑adjacent; 2025 highlights)
+  - University of Auckland
+    - NZ–US physics‑informed AI digital twins programme (Catalyst Fund, NZ$4.5m; 18 Sep 2025) expands AI twin capability with Oden Institute, strengthening model‑based decision support transferable to infrastructure systems. ([mbie.govt.nz](https://www.mbie.govt.nz/about/news/government-backs-nzus-digital-twin-collaboration?utm_source=openai))
+  - University of Canterbury
+    - Geospatial Research Institute leads deep‑learning elevation and flood‑risk mapping (JSPSR), positioning UC as a provider of geospatial AI for hazard and infrastructure planning. ([canterbury.ac.nz](https://www.canterbury.ac.nz/news-and-events/news/2025/uc-innovation-makes-global-flood-risk-mapping-affordable---?utm_source=openai))
+  - Auckland University of Technology (AUT)
+    - Hosts GDI 2025 conference (1–3 Dec 2025) with streams on AI, digital twins and smart cities for the built environment. ([gdi2025.com](https://www.gdi2025.com/?utm_source=openai))
+  - Massey University
+    - Launches new undergraduate AI major (announced 11 Aug 2025) expanding the AI talent pipeline relevant to AEC analytics and operations. ([massey.ac.nz](https://www.massey.ac.nz/about/news/new-artificial-intelligence-major-set-to-launch-in-2026/?utm_source=openai))
+  - University of Waikato
+    - Convened “AI for the Built Environment” workshop (15 Oct 2025); research communications highlight LLMs aiding urban planning analyses. ([engineeringnz.org](https://www.engineeringnz.org/courses-events/event/ai-for-the-built-environment/?utm_source=openai))
+  - Victoria University of Wellington (Te Herenga Waka)
+    - Policy Hub supports GCDO on an AI assurance model and LLM trials for public consultations; secretariat for the 2025 Public Service AI Expert Advisor Panel, shaping governance relevant to AEC‑facing services. ([wgtn.ac.nz](https://www.wgtn.ac.nz/policy-hub/projects/current-projects/artificial-intelligence?utm_source=openai))
 
 ---
 
-## Trends and Predictions  
+## Case Studies
 
-### 1. AI‑powered hazard and climate intelligence becomes a standard design input  
+1) Flood planning with deep‑learning elevation super‑resolution (UC, 2025)  
+- What: JSPSR model applies deep learning to uplift global DEMs, improving elevation accuracy and resolution using open satellite data.  
+- How: Guided image filtering + spatial propagation network; peer‑reviewed accuracy gains vs. baselines.  
+- Outcome: More affordable flood‑risk mapping for councils; better inputs for stormwater and transport design where LiDAR is sparse. ([mdpi.com](https://www.mdpi.com/2072-4292/17/21/3591?utm_source=openai))
 
-- **Trend**  
-  - Rapid progress in **deep‑learning elevation super‑resolution** (UC’s JSPSR) and **ML flood nowcasting** show that AI can generate **high‑resolution hazard intelligence** quickly and cheaply. ([canterbury.ac.nz](https://www.canterbury.ac.nz/news-and-events/news/2025/uc-innovation-makes-global-flood-risk-mapping-affordable---?utm_source=openai))  
-- **Implications**  
-  - Expect:
-    - Flood‑risk and landslide susceptibility maps produced by **AI models** to be embedded in **design briefs**, **planning assessments** and **infrastructure business cases**.
-    - Growing expectation from funders and regulators that design teams use **AI‑enhanced hazard datasets** rather than coarse baselines where available.
-  - Over time, these AI‑generated layers will feed into **digital planning instruments** and **climate‑resilient zoning**.
+2) National‑scale flood inundation nowcasting via ML (ESNZ/NIWA, 2025)  
+- What: Pre‑trained machine‑learning model generates hourly flood‑inundation maps in 1–2 minutes.  
+- How: Learns relationships across rainfall, hydrology and topography to produce probabilistic depth/extent.  
+- Outcome: Supports emergency response and network operations during events; accelerates situational awareness for infrastructure managers. ([niwa.co.nz](https://niwa.co.nz/climate-and-weather/ai-flood-maps-forecasting-where-and-when-real-time?utm_source=openai))
 
-### 2. Computer‑vision safety and monitoring move from pilots to procurement norms  
+3) Computer‑vision safety on a live civil project (Hutt City Council’s Tupua Horo Nuku, May 2025)  
+- What: AI cameras detect falls, PPE non‑compliance and intrusions; pilot with RUSH Digital, Downer NZ, Te Ara Tupua Alliance.  
+- Outcome: Near‑real‑time alerts augment supervision and inform safer traffic and site layouts. ([scoop.co.nz](https://www.scoop.co.nz/stories/AK2505/S00275/ai-driving-safety-changes-at-tupua-horo-nuku.htm?utm_source=openai))
 
-- **Trend**  
-  - The Tupua Horo Nuku pilot demonstrates concrete benefits from **machine‑learning and computer‑vision** for live safety monitoring. ([civilcontractors.co.nz](https://civilcontractors.co.nz/webinar-recording-artificial-intelligence-in-construction/10915-2b351587-5f21-4d72-90f2-3363c4a42419/?utm_source=openai))  
-- **Implications**  
-  - Anticipate:
-    - Future contracts (especially large civil works) including **standard clauses** for AI‑enabled hazard detection and incident analytics.
-    - Emergence of NZ‑specific patterns for **privacy‑by‑design**, signage, data governance and worker consultation around AI cameras.
-  - Insurance and clients may begin to recognise **AI safety analytics** as a risk‑mitigation factor.
+4) Landslide susceptibility modelling with AI (Auckland Transport, Aug 2025)  
+- What: AI‑generated GIS risk layer for ~8,000 km road network using ~2,000 historical slips and geospatial predictors.  
+- Outcome: Prioritises remediation and adaptation in forward works; informs resilience planning with explainable risk factors per location. ([insite.ipwea.org](https://insite.ipwea.org/auckland-transport-harnesses-ai-to-build-resilience/))
 
-### 3. Predictive O&M and asset‑level analytics spread across utilities and infrastructure  
+5) Predictive analytics for wastewater operations (Watercare, Aug–Sep 2025)  
+- What: Rollout of 5,000 sensors and an AI analytics system to learn “normal” behaviour and flag anomalies.  
+- Outcome: Shift from reactive to predictive maintenance; early prevention of overflows (Ōtara example). ([watercare.co.nz](https://www.watercare.co.nz/home/about-us/latest-news-and-media/watercare-s-wastewater-network-smartens-up-with-rollout-of-5000-sensors?utm_source=openai))
 
-- **Trend**  
-  - Watercare’s deployment of **AI anomaly detection** showcases operational value of AI for water infrastructure; similar approaches are being explored for other asset classes.  
-- **Implications**  
-  - Likely growth in:
-    - AI‑driven **condition‑based maintenance** in roads, bridges, rail, and building services.
-    - Integration of **sensor data + AI** into **digital twins** for continuous performance optimisation.
-  - This will pressure AEC firms to build **data engineering and ML operations (MLOps)** capabilities, not just conventional asset management.
-
-### 4. Education, talent, and research infrastructure for AI in AEC scale up  
-
-- **Trend**  
-  - 2025 saw:
-    - A new **AI major** at Massey University. ([massey.ac.nz](https://www.massey.ac.nz/about/news/new-artificial-intelligence-major-set-to-launch-in-2026/?utm_source=openai))  
-    - A **Master of AI for Land Use** at Lincoln University. ([lincoln.ac.nz](https://www.lincoln.ac.nz/news-and-events/new-master-of-ai/?utm_source=openai))  
-    - New physics‑informed AI twin programmes and expanded AI‑centric courses in civil, construction and geospatial engineering.  
-- **Implications**  
-  - Over the next 3–5 years:
-    - AEC firms will be able to recruit **domestic graduates** with core AI and ML skills.
-    - Interdisciplinary programmes (land‑use AI, geospatial AI) will strengthen capability in **planning, infrastructure siting, and environmental performance**.
-  - Expect more **joint industry‑PhD projects** under the NZIAT AI Platform in topics like:
-    - AI for network optimisation.
-    - AI‑assisted structural and geotechnical design.
-    - Automated code checking using NLP and LLMs.
-
-### 5. Governance and assurance frameworks enable more confident AI deployment  
-
-- **Trend**  
-  - The **National AI Strategy** and public‑sector AI frameworks emphasise responsible AI: lawfulness, fairness, transparency and safety. ([mbie.govt.nz](https://www.mbie.govt.nz/about/news/artificial-intelligence-strategy-and-business-guidance-now-available?utm_source=openai))  
-- **Implications for AEC**  
-  - Councils and central agencies (e.g., Waka Kotahi, Kāinga Ora) are:
-    - Building **assurance practices** (risk assessments, impact assessments, human‑in‑the‑loop controls) for AI systems that interact with the public.
-    - Gradually normalising the use of **AI in planning, consenting and asset operations**, which reduces perceived risk for private AEC adopters.
-  - In the medium term:
-    - Expect **standard guidance** around documenting models, training data and validation processes for AI used in safety‑critical and regulatory contexts (e.g., structural assessments, safety analytics).
+6) Smart‑city AI assistant for service navigation (Auckland Council, Feb 2025)  
+- What: Pilot digital assistant using Google Cloud’s AI to streamline access to council information and services.  
+- Outcome: Potential pathway to AI‑assisted consenting and planning queries; scalable across council group sites. ([ourauckland.aucklandcouncil.govt.nz](https://ourauckland.aucklandcouncil.govt.nz/news/2025/02/auckland-council-ai-initiative-to-boost-customer-experience/?utm_source=openai))
 
 ---
 
-## Conclusion  
+## Trends and Predictions
 
-- **State of play (Dec 2025)**  
-  - New Zealand’s AEC sector now has:
-    - Operational examples of **computer‑vision safety monitoring**, **ML‑based hazard mapping**, **flood‑inundation nowcasting**, and **predictive asset analytics**.
-    - Emerging **AI‑ready design inputs** (AI‑enhanced DEMs, ML‑based hazard layers) that can materially alter infrastructure design and risk decisions.
-    - A strengthening **policy and funding environment** for AI innovation (National AI Strategy, NZIAT AI Platform call, cross‑agency AI use‑case survey).
-    - Growing **university capabilities and degree programmes** directly aligned with AI for land use, infrastructure and construction. ([canterbury.ac.nz](https://www.canterbury.ac.nz/news-and-events/news/2025/uc-innovation-makes-global-flood-risk-mapping-affordable---?utm_source=openai))  
+- AI‑powered hazard intelligence becomes a standard design input
+  - Expect flood‑risk and landslide susceptibility layers from deep learning/ML to be embedded in design briefs, planning assessments and business cases as accuracy and coverage improve. ([canterbury.ac.nz](https://www.canterbury.ac.nz/news-and-events/news/2025/uc-innovation-makes-global-flood-risk-mapping-affordable---?utm_source=openai))
+- Computer‑vision safety monitoring scales across civil works
+  - Demonstrated gains from AI‑enabled event detection point to upcoming procurement clauses and clearer privacy/assurance patterns on NZ sites. ([scoop.co.nz](https://www.scoop.co.nz/stories/AK2505/S00275/ai-driving-safety-changes-at-tupua-horo-nuku.htm?utm_source=openai))
+- Predictive O&M accelerates across utilities and local government
+  - Early wins in wastewater anomaly detection foreshadow broader adoption for stormwater, potable water and facility services with AI‑driven condition‑based maintenance. ([watercare.co.nz](https://www.watercare.co.nz/home/about-us/latest-news-and-media/watercare-s-wastewater-network-smartens-up-with-rollout-of-5000-sensors?utm_source=openai))
+- Talent and research infrastructure expand
+  - New AI degree pathways (Massey) and major research programmes (physics‑informed AI digital twins) deepen local capability applicable to AEC workflows. ([massey.ac.nz](https://www.massey.ac.nz/about/news/new-artificial-intelligence-major-set-to-launch-in-2026/?utm_source=openai))
+- Governance guardrails mature
+  - National AI Strategy plus GCDO’s survey and emerging assurance work provide clearer expectations for responsible AI in public services that interact with planning/consenting and infrastructure users. ([mbie.govt.nz](https://www.mbie.govt.nz/about/news/artificial-intelligence-strategy-and-business-guidance-now-available?utm_source=openai))
 
-- **Strategic insights for AEC stakeholders**  
-  - **Embed AI‑generated hazard intelligence** in business cases, planning reports and design criteria, ensuring models are validated and well‑documented.
-  - **Scale computer‑vision safety** from isolated pilots to programme‑level deployments, supported by robust privacy and worker‑engagement frameworks.
-  - **Invest in data infrastructure and MLOps** to operationalise predictive maintenance and AI‑enabled asset management at portfolio scale.
-  - **Partner with universities** and leverage NZIAT and other funding to co‑develop AI solutions in:
-    - Structural and geotechnical risk prediction.
-    - Offsite manufacturing optimisation.
-    - Smart‑city infrastructure operations.
-  - **Align projects with national AI governance guidance**, documenting ethics, bias mitigation and human oversight, to build trust with regulators and the public.
+---
 
-- **Outlook (2026+)**  
-  - With groundwork in place, the next phase will focus less on “can we use AI?” and more on **“how do we integrate, measure and govern AI‑enabled decisions across the full asset lifecycle?”**  
-  - Organisations that treat AI as a core capability — spanning **design, construction, operations and education** — are best positioned to realise productivity, safety and resilience gains while meeting emerging standards for responsible AI.
+## Conclusion
+
+- State of play (Dec 2025)
+  - New Zealand’s AEC sector now shows tangible AI deployments: geospatial deep learning for elevation/flood intelligence, ML nowcasting for operations, predictive analytics for water networks, AI assistants for public service navigation, and computer‑vision safety on sites. Policy momentum and research funding give clearer pathways from pilots to operations. ([canterbury.ac.nz](https://www.canterbury.ac.nz/news-and-events/news/2025/uc-innovation-makes-global-flood-risk-mapping-affordable---?utm_source=openai))
+- Strategic insights for industry
+  - Embed AI‑enhanced hazard intelligence in planning and design with documented validation; scale computer‑vision safety under robust privacy and worker engagement; invest in data engineering/MLOps for predictive asset management; partner with universities/NZIAT programmes to co‑develop solutions; align with emerging public‑sector AI assurance practices. ([mdpi.com](https://www.mdpi.com/2072-4292/17/21/3591?utm_source=openai))
+- Outlook (2026+)
+  - Focus shifts from feasibility to integration and governance across the asset lifecycle. Firms that treat AI as a core capability in design, construction, and operations will realise measurable gains in productivity, safety and resilience under evolving national guidance. ([mbie.govt.nz](https://www.mbie.govt.nz/about/news/artificial-intelligence-strategy-and-business-guidance-now-available?utm_source=openai))

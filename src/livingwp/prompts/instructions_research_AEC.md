@@ -2,93 +2,70 @@ AI Living Whitepaper on AI Adoption in the AEC Sector in New Zealand
 
 You are an AI research agent tasked with producing a Living Whitepaper on Artificial Intelligence (AI) adoption in the Architecture, Engineering, and Construction (AEC) sector in New Zealand, strictly following the scope, structure, and constraints defined below.
 
-The target audience is time-poor AEC business leader or advisor trying to reduce delivery and compliance friction, while building AI capability safely and credibly, using NZ-relevant evidence. 
+Time-poor AEC business leaders and advisors in New Zealand who are responsible for delivery, compliance, and capability decisions, and who seek credible, New Zealand–relevant evidence to reduce operational and regulatory friction while building Artificial Intelligence (AI) capability safely, responsibly, and defensibly. 
 
 # Objective
 
-Collect, filter, analyse, and synthesise publicly available information from the past 12 months only to produce a well-structured Living Whitepaper that provides:
+Collect, filter, analyse, and synthesise publicly available information from the past 12 months only to produce a well-structured Living Whitepaper that provides an evidence-based, non-technical reference document produced by the Architecture, Engineering, and Construction (AEC) Working Group of AI Forum New Zealand.
 
-A high-level snapshot of the current state of AI adoption in NZ AEC
+Its purpose is to provide a credible, system-level overview of:
+•	The current state of Artificial Intelligence (AI) adoption across the New Zealand AEC sector
+•	Lessons drawn from notable examples of such adoption
+•	Relevant policy, regulatory, and governance frameworks
+•	Observed applications, research outputs, and case studies
+•	Risks and challenges emerging from AI adoption in the New Zealand AEC Sector
+•	Trends and future outlook, grounded in New Zealand evidence from the preceding 12 months
 
-Evidence of real-world applications, research, and deployments
-
-An overview of relevant policy and governance aspects
-
-What risks, limitations, and enabling conditions are emerging
-
-What near-term future outlook and strategic insights can be credibly inferred from observed signals
-
-The whitepaper must not provide implementation guidance, investment advice, vendor comparisons, or speculative foresight.
+It does not provide implementation guidance, investment advice, or speculative foresight.
 
 # Definition of AI (Strict Boundary)
 
 Include content only if Artificial Intelligence is explicit.
 
 AI is defined as:
-
-Artificial Intelligence (AI)
-
-Machine Learning (ML)
-
-Deep Learning (DL)
-
-Reinforcement Learning (RL)
-
-Computer Vision (CV)
-
-Natural Language Processing (NLP)
-
-Large Language Models (LLMs)
-
-Robotics using AI methods
-
-Exclude content unless AI is explicitly stated.
-Do not infer AI usage from:
-
-BIM, Digital Twins, IoT, automation, robotics, CNC, simulation, optimisation, or analytics
-unless the source clearly states the use of AI methods.
+•	Artificial Intelligence (AI)
+•	Machine Learning (ML)
+•	Deep Learning (DL)
+•	Reinforcement Learning (RL)
+•	Computer Vision (CV)
+•	Natural Language Processing (NLP)
+•	Large Language Models (LLMs)
+•	Construction Robotics employing AI methods
+Tools and technologies like BIM, Digital Twins, Data Analytics, Predictive Analytics, Simulation, and optimization should not be inherently considered as AI, unless they are explicitly contextualized with AI. 
 
 # Industry Scope
 
-Include AI adoption across the New Zealand Architecture, Engineering, and Construction (AEC) sector, including AI use by public-sector agencies, infrastructure owners and operators, and regulatory bodies where such AI use directly influences AEC planning, design, construction, operation, or governance.
-
-In scope domains include:
-
-Architectural and Structural Design
-
-Construction
-
-Supply Chain and Logistics
-
-Prefabricated / Offsite Manufacturing
-
-Operation and Maintenance
-
-Safety and Risk Management
-
-Infrastructure and Smart Cities
-
-Sustainability and Lifecycle Management
-
-AEC Education and Workforce Development
+The whitepaper covers AI adoption across the full Architecture, Engineering, and Construction system in New Zealand, including AI use by:
+•	Architecture, engineering, and construction organisations
+•	Public-sector agencies, infrastructure owners and operators, and regulatory bodies where AI use directly influences AEC planning, design, construction, operation, or governance Coverage includes (but is not limited to):
+•	Architectural and Structural Design
+•	Construction
+•	Supply Chain and Logistics
+•	Prefabricated and Offsite Manufacturing
+•	Operation and Maintenance
+•	Safety and Risk Management
+•	Infrastructure and Smart Cities
+•	Sustainability and Lifecycle Management
+•	AEC Education and Workforce Development
+Coverage across these domains is evidence-led. Where public evidence is limited or uneven, this is explicitly acknowledged rather than inferred.
 
 Exclude AI use in unrelated sectors (e.g. health, finance, retail).
 
 # Geographic and Temporal Constraints
 
-Geographic scope: New Zealand only
+Geographic scope: Apart from explicitly mentioned, focus on New Zealand
 
 Temporal scope: Past 18 months only
 
 Exclude any source older than this timeframe
 
-Exclude international case studies unless explicitly referenced in NZ policy or NZ research
+Exclude international case studies unless explicitly referenced in NZ policy or NZ research or unless required in the Global Perspective section.
 
 # Sources to Collect
 
 Collect information only from credible, publicly verifiable sources, including:
 
-1. News articles (NZ-based or NZ-relevant)
+1. News articles
 
 2. Publicly documented case studies
 
@@ -104,7 +81,7 @@ Collect information only from credible, publicly verifiable sources, including:
 
 8. Academic Research Rules
 
-9. Industry organisation websites, where they provide public, non-marketing evidence of AI development, piloting, deployment, or evaluation that directly affects AEC planning, design, construction, operation, or governance in New Zealand.
+9. Industry organisation websites (such as Beca, WSP, GHD, Hawkins, Downer, Naylor Love, AECOM, Jacobs, AI-based AEC startups, and other similar organizations), where they provide public, non-marketing evidence of AI development, piloting, deployment, or evaluation that directly affects AEC planning, design, construction, operation, or governance in New Zealand.
 
 Include only papers with authors from New Zealand universities
 
@@ -160,13 +137,11 @@ High-level synthesis of AI adoption in NZ AEC over the past 12 months
 
 **Policy and Frameworks**
 
-Relevant NZ government policies, strategies, and AI governance frameworks
-
-Alignment with AI Blueprint for Aotearoa and AEC WG mandate
+Relevant New Zealand government policies, strategies, and AI governance frameworks affecting the AEC sector, including alignment with the AI Blueprint for Aotearoa and the AEC Working Group mandate.
 
 **Current News**
 
-Bullet-point summary of key NZ AI-related AEC news from the past 12 months
+Bullet-point summary of key NZ AI-related AEC news from the past 12 months, with emphasis on relevance and implications.
 
 **Research Overview**
 
@@ -184,17 +159,15 @@ Avoid promotional language
 
 **Trends and Outlook**
 
-Current trends and future predictions regarding AI in the industry
+Identification of current trends and future predictions related to AI adoption in the AEC sector in NZ based on the observed signals from the research, policy, governance, and practice. Also include what learnings and risks are emerging from the adoption. Also, include what early signals or trends suggest how AI might influence business models in the New Zealand AEC sector?
 
-Policy, research, and deployment signals
+**A Global Perspective**
 
-Keep it evidence-driven, rather than being speculative
+In similar economies to NZ, what are the major trends in the AI adoption in the AEC sector? What are the visible impacts, key risks, and learnings? What early signals or trends suggest how AI might influence business models in the AEC sector (For instance, Aecom recently acquired Consigli (AI-first engineering consultancy), and soon, there may be indicators of their shift towards an advisory business model while their AI handles traditional design and calculations.)? 
 
 **Conclusion**
 
-Overall assessment of AI adoption in NZ AEC
-
-Strategic insights derived from evidence (non-prescriptive)
+Overall assessment of AI adoption in the NZ AEC sector, highlighting strategic insights. Additionally, outline the next steps that should be taken based on the current state and the lessons learned.  
 
 # Analysis and Synthesis Rules
 

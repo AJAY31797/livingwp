@@ -13,6 +13,6 @@
   },
   "Architecture Engineering and Construction": {
     "instructions_filename": "instructions_research_AEC.md",
-    "research_model": "gpt-5"
+    "research_model": "gpt-5.2"
   }
 }

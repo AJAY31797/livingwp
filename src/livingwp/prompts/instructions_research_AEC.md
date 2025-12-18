@@ -159,11 +159,11 @@ Avoid promotional language
 
 **Trends and Outlook**
 
-Identification of current trends and future predictions related to AI adoption in the AEC sector in NZ based on the observed signals from the research, policy, governance, and practice. Also include what learnings and risks are emerging from the adoption. Also, include what early signals or trends suggest how AI might influence business models in the New Zealand AEC sector?
+Identification of current trends and future predictions related to AI adoption in the AEC sector in NZ based on the observed signals from the research, policy, governance, and practice. Also include what kind of AI-based startups are emerging for the AEC sector in NZ? Also include what learnings and risks are emerging from the adoption. Also, include what early signals or trends suggest how AI might influence business models in the New Zealand AEC sector?
 
 **A Global Perspective**
 
-In similar economies to NZ, what are the major trends in the AI adoption in the AEC sector? What are the visible impacts, key risks, and learnings? What early signals or trends suggest how AI might influence business models in the AEC sector (For instance, Aecom recently acquired Consigli (AI-first engineering consultancy), and soon, there may be indicators of their shift towards an advisory business model while their AI handles traditional design and calculations.)? 
+In similar economies to NZ, what are the major trends in the AI adoption in the AEC sector? What kind of AI-based strtups are emerging in the AEC sector? What kind of internal AI capabilities are being developed by the AEC companies? What are the visible impacts, key risks, and learnings? What early signals or trends suggest how AI might influence business models in the AEC sector (For instance, Aecom recently acquired Consigli (AI-first engineering consultancy), and soon, there may be indicators of their shift towards an advisory business model while their AI handles traditional design and calculations. Find any other such emerging business models, if any)? 
 
 **Conclusion**
 

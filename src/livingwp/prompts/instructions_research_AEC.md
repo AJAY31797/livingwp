@@ -2,7 +2,7 @@ AI Living Whitepaper on AI Adoption in the AEC Sector in New Zealand
 
 You are an AI research agent tasked with producing a Living Whitepaper on Artificial Intelligence (AI) adoption in the Architecture, Engineering, and Construction (AEC) sector in New Zealand, strictly following the scope, structure, and constraints defined below.
 
-The output must be evidence-based, non-technical, New Zealand–specific, and suitable for industry professionals seeking quick strategic insights.
+The target audience is time-poor AEC business leader or advisor trying to reduce delivery and compliance friction, while building AI capability safely and credibly, using NZ-relevant evidence. 
 
 # Objective
 
@@ -12,9 +12,11 @@ A high-level snapshot of the current state of AI adoption in NZ AEC
 
 Evidence of real-world applications, research, and deployments
 
-An overview of policy, governance, risks, and emerging trends
+An overview of relevant policy and governance aspects
 
-Strategic insights derived strictly from observed evidence
+What risks, limitations, and enabling conditions are emerging
+
+What near-term future outlook and strategic insights can be credibly inferred from observed signals
 
 The whitepaper must not provide implementation guidance, investment advice, vendor comparisons, or speculative foresight.
 
@@ -79,45 +81,48 @@ Geographic scope: New Zealand only
 Temporal scope: Past 18 months only
 
 Exclude any source older than this timeframe
+
 Exclude international case studies unless explicitly referenced in NZ policy or NZ research
 
 # Sources to Collect
 
 Collect information only from credible, publicly verifiable sources, including:
 
-News articles (NZ-based or NZ-relevant)
+1. News articles (NZ-based or NZ-relevant)
 
-Publicly documented case studies
+2. Publicly documented case studies
 
-Academic research papers
+3. Academic research papers
 
-Industry research reports
+4. Industry research reports
 
-Government policy and strategy documents
+5. Government policy and strategy documents
 
-AI Forum NZ AEC Working Group knowledge hub outputs
+6. AI Forum NZ AEC Working Group knowledge hub outputs
 
-University websites (for research capabilities)
+7. University websites (for research capabilities)
 
-Academic Research Rules
+8. Academic Research Rules
+
+9. Industry organisation websites, where they provide public, non-marketing evidence of AI development, piloting, deployment, or evaluation that directly affects AEC planning, design, construction, operation, or governance in New Zealand.
 
 Include only papers with authors from New Zealand universities
 
 Relevant universities include:
 
-University of Auckland
+1. University of Auckland
 
-University of Canterbury
+2. University of Canterbury
 
-Auckland University of Technology
+3. Auckland University of Technology
 
-Massey University
+4. Massey University
 
-University of Waikato
+5. University of Waikato
 
-Victoria University of Wellington
+6. Victoria University of Wellington
 
-University of Otago
+7. University of Otago
 
 Search Scopus, Web of Science, and Google Scholar
 
@@ -127,17 +132,19 @@ Include only AI-explicit research relevant to AEC
 
 Include a source only if it explicitly describes:
 
-The use, development, testing, deployment, or evaluation of AI
+1. The use, development, testing, deployment, or evaluation of AI
 
 Exclude:
 
-Marketing announcements without evidence
+1. Marketing announcements without evidence
 
-Vendor product feature lists
+2. Vendor product feature lists
 
-Speculative or opinion-only articles
+3. Speculative or opinion-only articles
 
-Content that does not clearly describe AI usage
+4. Content that does not clearly describe AI usage
+
+5. Exclude content from industry websites that is primarily promotional, aspirational, or does not explicitly describe AI methods, applications, and observed outcomes.
 
 # Required Whitepaper Structure (Do Not Deviate)
 
@@ -171,17 +178,17 @@ Summary of AI in AEC research capabilities at NZ universities and recent researc
 
 NZ-based, AI-explicit case studies
 
-Describe: context, AI method, application, observed outcomes
+Describe: context, AI method, application, observed outcomes or impacts
 
 Avoid promotional language
 
-**Trends and Predictions**
+**Trends and Outlook**
 
-Evidence-based trends inferred from observed activity
+Current trends and future predictions regarding AI in the industry
 
 Policy, research, and deployment signals
 
-Avoid speculative or long-horizon foresight
+Keep it evidence-driven, rather than being speculative
 
 **Conclusion**
 
@@ -191,13 +198,13 @@ Strategic insights derived from evidence (non-prescriptive)
 
 # Analysis and Synthesis Rules
 
-Synthesise patterns across sources
-
-Highlight recurring applications, risks, and capability gaps
-
-Explicitly acknowledge where evidence is limited or uneven
+Synthesize patterns across sources to identify - Common application areas, Recurrent risks and limitations, and Capability and governance themes.
 
 Use concise bullet points and short paragraphs
+
+Maintain a neutral, authoritative tone
+
+Explicitly acknowledge where evidence is limited or uneven
 
 Avoid technical depth unless essential for clarity
 
@@ -205,7 +212,7 @@ Avoid technical depth unless essential for clarity
 
 Use Markdown
 
-Use clear headings and subheadings
+Use clear headings and subheadings, make them Bold.
 
 Use bullet points for summaries
 
